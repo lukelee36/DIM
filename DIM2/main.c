@@ -10,9 +10,10 @@
 
 int main()
 {
-	unsigned int a = 5;
-	unsigned int b = 10;
-	nsd(a,b);
-	printf("/nEnd of operation");
+	unsigned int a = 15;
+	unsigned int b = 50;
+	unsigned int result = nsd(a,b);
+	printf("NDS id %d", result);
+	printf("\n End of operation");
 	return 0;
 }
